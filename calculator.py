@@ -1,5 +1,5 @@
 """
-CCalculator library contining basic math operations.
+Calculator library contining basic math operations.
 """
 
 
