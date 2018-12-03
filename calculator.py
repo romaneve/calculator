@@ -22,5 +22,6 @@ def divide(first_term, second_term):
 def average(in_list):
     return sum(in_list) / len(in_list)
 
-def handicap(base,pct,ave):
+
+def handicap(base, pct, ave):
     return (base - ave)*pct
