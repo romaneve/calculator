@@ -18,3 +18,6 @@ class TestCalculator:
 
     def test_division(self):
         assert 10 == calculator.divide(100, 10)
+
+    def test_average(self):
+        assert 200 == calculator.average((210, 190, 200))
