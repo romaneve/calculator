@@ -23,4 +23,5 @@ class TestCalculator:
         assert 200 == calculator.average((210, 190, 200))
 
     def test_handicap(self):
-        assert 9.0 == calculator.handicap(220, .90, calculator.average((200,220,210)))
+        ave = calculator.average((200, 220, 210))
+        assert 9.0 == calculator.handicap(220, .90, ave)
